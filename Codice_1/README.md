@@ -31,4 +31,28 @@ int r2 = a | b;
 ```java
 int r3 = a ^ b;
 ```
-(da finire...)
+- I commenti delle righe 23-25 mostrano come questa operazione funzioni come indicato nella teoria del libro: il risultato è un nuovo numero i cui bit sono a `1` solo se il bit corrispondente di uno dei due operandi è `1`, mentre è `0` se entrambi i bit corrispondenti sono uguali. Operando sulle rappresentazioni binarie di $5$ e $3$ si ottiene `00000110` (considerando solo il byte più significativo), ossia $6$ poiché $1\cdot 2^2 + 1\cdot 2^1 + 0\cdot 2^0 = 6$. La riga 51 stampa il risultato in modo chiaro in console.
+
+- La riga 28 introduce la variabile intera (`int`) `r4` assegnandole il risultato dell'operazione di NOT Bitwise sulla variabile `a` definita prima:
+```java
+int r4 = ~a;
+```
+- I commenti delle righe 29-30 mostrano come questa operazione funzioni come indicato nella teoria del libro: il risultato è un nuovo numero i cui bit sono invertiti rispetto al numero su cui è stato applicato l'operatore. Operando sulla rappresentazione binaria di $5$, si ottiene `11111111 11111111 11111111 11111010`, ossia il numero $-6$, a causa del _Complemento a Due_. La riga 52 stampa il risultato in modo chiaro in console.
+
+- La riga 33 introduce la variabile intera (`int`) `r5` assegnandole il risultato dell'operazione di Shift a sinistra di `1` posizione sulla variabile `a` definita prima:
+```java
+int r5 = a << 1;
+```
+- I commenti delle righe 34-35 mostrano come questa operazione funzioni come indicato nella teoria del libro: il risultato è un nuovo numero i cui bit sono "spostati" verso sinistra del numero di posizioni indicate, introducendo nuovi bit a `0` nella posizione del LSB. Operando sulla rappresentazione binaria di $5$, si ottiene `00001010`, ossia $10$ poiché $1\cdot 2^3 + 0\cdot 2^2 + 1\cdot 2^1 + 0\cdot 2^0 = 10$. È come se avessimo moltiplicato per $2$ il valore originale. La riga 53 stampa il risultato in modo chiaro in console.
+
+- La riga 38 introduce la variabile intera (`int`) `r6` assegnandole il risultato dell'operazione di Shift a destra aritmetico di `1` posizione sulla variabile `a` definita prima:
+```java
+int r6 = a >> 1;
+```
+- I commenti delle righe 39-40 mostrano come questa operazione funzioni come indicato nella teoria del libro: il risultato è un nuovo numero i cui bit sono "spostati" verso destra del numero di posizioni indicate, introducendo dei bit a `0` a sinistra nella posizione successiva a quella del bit di segno che rimane invariato. Operando sulla rappresentazione binaria di $5$, si ottiene `00000010`, ossia $2$, poiché $1\cdot 2^1 + 0\cdot 2^0 = 2$. È come se avessimo eseguito la divisione intera per $2$ del valore originale. La riga 54 stampa il risultato in modo chiaro in console.
+
+- La riga 43 introduce la variabile intera (`int`) `r7` assegnandole il risultato dell'operazione di Shift a destra logico di `1` posizione sulla variabile `c` definita prima:
+```java
+int r7 = c >>> 1;
+```
+- I commenti delle righe 44-46 mostrano come questa operazione funzioni come indicato nella teoria del libro: il risultato è un nuovo numero i cui bit sono "spostati" verso destra del numero di posizioni indicate, introducendo dei bit a `0` a sinistra, nella posizione del bit più significativo (MSB = _Most Significant Bit_). Tuttavia, il bit più significativo è quello che determina il segno: cambiarlo in `0` modifica perciò il segno del numero finale. Operando sulla rappresentazione binaria di $-5$, si ottiene `01111111 11111111 11111111 11111101`, ossia $2147483645$. La riga 55 stampa il risultato in modo chiaro in console.
