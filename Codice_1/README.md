@@ -1,4 +1,4 @@
-# Codice 1
+# Codice 1: "Esempi di Operatori Bitwise"
 Il codice permette di vedere in azione gli **Operatori Bitwise**.
 
 ## Spiegazione riga per riga
