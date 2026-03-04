@@ -2,7 +2,7 @@
 Il codice permette di vedere in azione gli **Operatori Bitwise**.
 
 ## Spiegazione riga per riga
-Ignorando le parti "strutturali" del codice (`package`, `public class BitwiseExample`, `public static void main(String[] args)`) che affronteremo in seguito nel libro, concentriamoci sulle operazioni svolte alle righe da 5 a 55 (estremi compresi).
+Ignorando le parti "strutturali" del codice (`public class BitwiseExample`, `public static void main(String[] args)`) che affronteremo in seguito nel libro, concentriamoci sulle operazioni svolte alle righe da 5 a 55 (estremi compresi).
 
 - Le righe 5-7 introducono le variabili intere (`int`) `a`, `b`, `c` a cui vengono assegnati (rispettivamente) i valori `5`, `3` e `-5`.
 ```java

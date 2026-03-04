@@ -25,3 +25,9 @@ replay_pid*
 
 # MacOS files
 .DS_Store
+
+# IDE-specific
+.idea/
+.vscode/
+*.iml
+out/

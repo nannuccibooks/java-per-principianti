@@ -1,5 +1,3 @@
-package it.javaperprincipianti.codice1;
-
 public class BitwiseExample {
     public static void main(String[] args) {
         int a = 5; // 00000000 00000000 00000000 00000101
