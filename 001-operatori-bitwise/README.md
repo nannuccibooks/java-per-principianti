@@ -1,5 +1,25 @@
-# Codice 1: "Esempi di Operatori Bitwise"
+# Codice 001: Esempi di operatori bitwise
+
 Il codice permette di vedere in azione gli **Operatori Bitwise**.
+
+## Struttura
+
+```text
+001-operatori-bitwise/
+  README.md
+  .gitignore
+  src/
+    BitwiseExample.java
+```
+
+## Compilazione ed esecuzione
+
+Aprire un terminale in questa cartella ed eseguire:
+
+```sh
+javac -d out src/BitwiseExample.java
+java -cp out BitwiseExample
+```
 
 ## Spiegazione riga per riga
 Ignorando le parti "strutturali" del codice (`public class BitwiseExample`, `public static void main(String[] args)`) che affronteremo in seguito nel libro, concentriamoci sulle operazioni svolte alle righe da 3 a 53 (estremi compresi).
