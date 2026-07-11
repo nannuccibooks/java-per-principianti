@@ -6,12 +6,12 @@ Questo repository raccoglie più progetti completi, numerati in base al codice/e
 
 ## Struttura
 
-| **Risorsa N°** | **Nome**                                                    |
-|----------------|-------------------------------------------------------------|
-| **1**          | [**Esempi di Operatori Bitwise**]("001-operatori-bitwise/") |
-| **2**          | [**Hello World**]("002-hello-world/")                       |
-| **3**          | [**Vacanze**]("003-vacanze/")                               |
-| **4**          | [**Condizione complessa**]("004-condizione-complessa/")     |
+| **Risorsa N°** | **Nome**                                                      |
+|----------------|---------------------------------------------------------------|
+| **1**          | [**Esempi di Operatori Bitwise**]("./001-operatori-bitwise/") |
+| **2**          | [**Hello World**]("002-hello-world/")                         |
+| **3**          | [**Vacanze**]("003-vacanze/")                                 |
+| **4**          | [**Condizione complessa**]("004-condizione-complessa/")       |
 
 ## Convenzione per i materiali
 
