@@ -8,6 +8,8 @@ Questo repository raccoglie più progetti completi, numerati in base al codice/e
 
 - `001-operatori-bitwise`: esempi sugli operatori bitwise.
 - `002-hello-world`: primo programma "Hello, World!".
+- `003-if-else-or`: esempio di `if-else` con espressione booleana che usa l'OR.
+- `004-if-condizione-complessa`: esempio di `if` basato su un'espressione booleana complessa.
 
 ## Convenzione per i materiali
 
